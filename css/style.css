@@ -339,6 +339,17 @@ footer.footer-area .social a > i{
     padding: 1rem;
     color: var(--border-color);
 }
+.footer .fotter-area .social .btn{
+        background-color: DodgerBlue; /* Blue background */
+        border: none; /* Remove borders */
+        color: blue; /* White text */
+        padding: 12px 16px; /* Some padding */
+        font-size: 16px; /* Set a font size */
+        cursor: pointer; /* Mouse pointer on hover */
+      }
+      .btn:hover {
+        background-color: RoyalBlue;
+      }
 
 footer.footer-area .social a:hover > i{
     color: var(--primary-color);
