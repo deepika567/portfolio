@@ -31,7 +31,16 @@ $(document).ready(function () {
         gallery: { enabled: true }
     });
 
+    var typed = new Typed(".typed", {
+		strings: ["Hello! <br> I am Deepika Sharma."],
+		typeSpeed: 80,
+		loop: false,
+		startDelay: 1000,
+		showCursor: false
+	});
+    
 
+    
     // Owl-carousel
 
     $('.site-main .about-area .owl-carousel').owlCarousel({

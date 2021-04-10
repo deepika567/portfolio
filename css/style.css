@@ -11,7 +11,9 @@
 
 
 /* start navigation */ 
-
+.typed{
+    font: normal bold 84px/40px;
+}
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
 }
